@@ -53,7 +53,7 @@
 
 					else if(isset($msg->attachment->encryptedMessage))
 					{
-						$me = nxtapi("readMessage", "transaction=".$msg->transaction."&secretPhrase=X51UOCT9YEC4DYJLR876V8G15SCUFVWY0RQ6XO72F1JTQQLK35")->decryptedMessage;
+						$me = nxtapi("readMessage", "transaction=".$msg->transaction."&secretPhrase=THISISNOTMYREALPASSWORD")->decryptedMessage;
 					}
 
 					$name = "";
